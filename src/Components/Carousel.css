@@ -1,0 +1,32 @@
+/* Add this CSS in your project, either in a global CSS file or within a styled component */
+.carousel-item {
+    opacity: 4;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel-item.active {
+    opacity: 4;
+  }
+  .search-form {
+    position: absolute; /* Position it absolutely */
+    top: 50%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust to truly center */
+    width: 80%; /* Adjust the width as needed */
+}
+
+.search-form input {
+    background-color: transparent; /* Make background transparent */
+    border: 1px solid white; /* Optional: set border color */
+    color: white; /* Change text color */
+}
+
+.search-form button {
+    background-color: transparent; /* Make button background transparent */
+    border: 1px solid white; /* Optional: set border color */
+    color: white; /* Change button text color */
+}
+
+.search-form input::placeholder {
+    color: white; /* Change placeholder text color */
+}
